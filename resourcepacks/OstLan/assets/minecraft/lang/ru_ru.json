@@ -1,0 +1,23 @@
+{
+	"options.guiScale": "Масштаб интерфейса",
+	"options.guiScale.auto": "Адаптивный",
+	"options.vsync": "Вертикальная синхронизация",
+	"options.framerate": "%s кадров/сек.",
+	"options.framerateLimit": "Максимальная частота кадров",
+	"options.framerateLimit.max": "Неограниченная",
+	"options.attackIndicator": "Индикатор кулдауна атаки",
+	"options.attack.crosshair": "Под прицелом",
+	"options.attack.hotbar": "Справа от хотбара",
+	"options.off": "Выкл.",
+	"options.on": "Вкл.",
+	"options.autosaveIndicator": "Индикатор автосохранения мира",
+	"options.graphics.fancy": "Детально",
+	"options.graphics.fast": "Упрощённо",
+	"options.clouds.fancy": "Детально",
+	"options.clouds.fast": "Упрощённо",
+	"options.particles.all": "Неограниченное",
+	"options.particles.decreased": "Умеренное",
+	"options.particles.minimal": "Минимальное",
+	"options.particles": "Колоичество частиц",
+	"options.entityDistanceScaling": "Расстояние до сущностей"
+}
