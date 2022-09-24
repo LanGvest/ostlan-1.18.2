@@ -1,0 +1,16 @@
+/.idea
+/crash-reports
+/template-config
+/logs
+/defaultconfigs
+/natives
+/saves
+/schematics
+/screenshots
+/config/voicechat/username-cache.json
+/config/jei/*-sort-order.ini
+/config/jei/world
+OstLan 1.18.2.jar
+usercache.json
+usernamecache.json
+*.bak
