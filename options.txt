@@ -36,7 +36,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:1
 renderClouds:true
-resourcePacks:["vanilla","mod_resources"]
+resourcePacks:["vanilla","mod_resources","file/OstLan"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:ru_ru
