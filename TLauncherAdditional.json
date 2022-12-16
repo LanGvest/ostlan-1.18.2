@@ -75,13 +75,13 @@
       "resourcePacks": [],
       "maps": [],
       "shaderpacks": [],
-      "gameVersionDTO": {
-        "id": 35,
-        "name": "1.18.2"
-      },
       "forgeVersionDTO": {
         "id": 3337,
         "name": "40.1.80"
+      },
+      "gameVersionDTO": {
+        "id": 35,
+        "name": "1.18.2"
       },
       "id": -3080539060501,
       "name": "1.0",
@@ -89,7 +89,8 @@
     },
     "userInstall": false,
     "populateStatus": false,
-    "available": false
+    "available": false,
+    "parser": false
   },
   "source": "local_version_repo",
   "jar": "1.18.2",
