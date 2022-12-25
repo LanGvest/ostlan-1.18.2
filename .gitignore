@@ -11,6 +11,7 @@
 /config/jei/*-sort-order.ini
 /config/jei/world
 /config/opentoonline-client.toml
+/config/sound_physics_remastered
 OstLan 1.18.2.jar
 usercache.json
 usernamecache.json
