@@ -1,11 +1,11 @@
 {
 	"parent": "block/block",
 	"textures": {
-		"particle": "block/dirt_3",
-		"bottom": "block/dirt_3",
-		"top": "block/grass_block_top_0",
-		"side": "block/grass_block_side_0",
-		"overlay": "block/grass_block_side_overlay_0"
+		"particle": "block/dirt_1",
+		"bottom": "block/dirt_1",
+		"top": "block/grass_block_top_6",
+		"side": "block/grass_block_side_1",
+		"overlay": "block/grass_block_side_overlay_1"
 	},
 	"elements": [
 		{
