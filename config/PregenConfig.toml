@@ -28,7 +28,7 @@
 	#Defines how much memory should be free before the Memory Protector should kick in.
 	#Range: > 32
 	"Required Free Memory" = 1024
-	info = true
+	info = false
 
 [client]
 
