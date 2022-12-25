@@ -1,11 +1,11 @@
 #Delay before fade for chunks to load
 #Range: > 0
-HoldTime = 100
+HoldTime = 140
 #Archives previous screenshots to the archive folder
 ArchiveScreenshots = false
 #Fade duration
 #Range: > 0
-FadeTime = 20
+FadeTime = 30
 #Updates the world icon periodically
 UpdateWorldIcon = true
 #Disables camera movement until fade is complete
