@@ -20,7 +20,7 @@ toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.5
-fov:0.125
+fov:0.25
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:0.75
@@ -71,7 +71,7 @@ skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:true
 hideBundleTutorial:false
-syncChunkWrites:true
+syncChunkWrites:false
 showAutosaveIndicator:false
 allowServerListing:true
 key_key.attack:key.mouse.left
@@ -138,6 +138,13 @@ key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
+key_key.ae2.wireless_terminal:key.keyboard.unknown
+key_key.ae2.portable_item_cell:key.keyboard.unknown
+key_key.ae2.portable_fluid_cell:key.keyboard.unknown
+key_fpsreducer.key.openGui:key.keyboard.end
+key_fpsreducer.key.forceIdle:key.keyboard.pause
+key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
+key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
 key_key.push_to_talk:key.keyboard.caps.lock
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m
@@ -148,10 +155,9 @@ key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.g
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
+key_Options Gui:key.keyboard.i
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
-key_fpsreducer.key.openGui:key.keyboard.end
-key_fpsreducer.key.forceIdle:key.keyboard.pause
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
