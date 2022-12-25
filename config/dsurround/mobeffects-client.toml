@@ -12,7 +12,7 @@
 	#Enable replacement of footstep sounds with acoustic versions
 	"Enable Footprint Sound Effects" = true
 	#Enable Footprint particle effects
-	"Enable Footprint Particles" = true
+	"Enable Footprint Particles" = false
 	#Use first person footstep cadence
 	"First Person Cadence" = true
 	#Style of footprint to display for a player

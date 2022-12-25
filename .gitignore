@@ -1,6 +1,6 @@
 /.idea
 /crash-reports
-/config-template
+/config-*
 /logs
 /defaultconfigs
 /natives
@@ -8,6 +8,7 @@
 /schematics
 /screenshots
 /config/voicechat/username-cache.json
+/config/voicechat/voicechat-volumes.properties
 /config/jei/*-sort-order.ini
 /config/jei/world
 /config/opentoonline-client.toml

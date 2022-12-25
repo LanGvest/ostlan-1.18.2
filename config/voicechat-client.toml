@@ -35,7 +35,7 @@ muted = false
 #If the voice chat is disabled (sound and microphone off)
 disabled = false
 #If the voice chat icons should be hidden
-hide_icons = false
+hide_icons = true
 #If the group HUD should be visible
 show_group_hud = true
 #If the own icon should be shown when in a group
@@ -79,7 +79,7 @@ run_local_server = true
 #Whether to use the Java implementation of microphone capturing instead of OpenAL
 java_microphone_implementation = false
 #If the mod should check for microphone permissions (MacOS only)
-macos_check_microphone_permission = true
+macos_check_microphone_permission = false
 #If fake players should have the disconnected icon above their head
 show_fake_players_disconnected = false
 #If the volume adjustment GUI should also show offline players

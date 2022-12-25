@@ -15,13 +15,13 @@
 
 	[blocks.ash]
 		#Burnable blocks will have a chance to create ash layers when burned
-		ash_from_fire = true
+		ash_from_fire = false
 		#Allows rain to wash away ash layers overtime
-		rain_wash_ash = true
+		rain_wash_ash = false
 
 	[blocks.rope]
 		#Allows ropes to be supported & attached to solid block sides
-		block_side_attachment = true
+		block_side_attachment = false
 		#Makes sliding down ropes as fast as free falling, still negating fall damage
 		slide_on_fall = true
 
@@ -282,7 +282,7 @@
 
 	[tweaks.hanging_flower_pots]
 		#allows you to place hanging flower pots. Works with any modded pot too
-		enabled = true
+		enabled = false
 
 	[tweaks.throwable_bricks]
 		#Throw bricks at your foes! Might break glass blocks
