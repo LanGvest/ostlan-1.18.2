@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"": [
+			{ "model": "block/grass_0" },
+			{ "model": "block/grass_1" },
+			{ "model": "block/grass_2" },
+			{ "model": "block/grass_3" },
+			{ "model": "block/grass_4" },
+			{ "model": "block/grass_5" },
+			{ "model": "block/grass_6" },
+			{ "model": "block/grass_7" },
+			{ "model": "block/grass_8" },
+			{ "model": "block/grass_9" },
+			{ "model": "block/grass_10" },
+			{ "model": "block/grass_11" },
+			{ "model": "block/grass_12" },
+			{ "model": "block/grass_13" },
+			{ "model": "block/grass_14" },
+			{ "model": "block/grass_15" },
+			{ "model": "block/grass_16" },
+			{ "model": "block/grass_17" },
+			{ "model": "block/grass_18" },
+			{ "model": "block/grass_19" },
+			{ "model": "block/grass_20" },
+			{ "model": "block/grass_21" },
+			{ "model": "block/grass_22" },
+			{ "model": "block/grass_23" }
+		]
+	}
+}
