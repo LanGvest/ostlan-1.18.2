@@ -1,6 +1,6 @@
 {
-   "pack": {
-      "pack_format": 8,
-      "description": "Набор ресурсов OstLan"
-   	}
+	"pack": {
+		"pack_format": 8,
+		"description": "OstLan 1.18.2"
+	}
 }
