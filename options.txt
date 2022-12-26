@@ -142,10 +142,6 @@ key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
 key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
-key_iris.keybind.reload:key.keyboard.r
-key_iris.keybind.toggleShaders:key.keyboard.k
-key_iris.keybind.shaderPackSelection:key.keyboard.o
-key_Options Gui:key.keyboard.i
 key_key.push_to_talk:key.keyboard.caps.lock
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m
@@ -158,7 +154,8 @@ key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
-soundCategory_master:1.0
+key_Options Gui:key.keyboard.i
+soundCategory_master:0.60513246
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
@@ -166,7 +163,7 @@ soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
 soundCategory_player:1.0
-soundCategory_ambient:1.0
+soundCategory_ambient:0.30457747
 soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true
