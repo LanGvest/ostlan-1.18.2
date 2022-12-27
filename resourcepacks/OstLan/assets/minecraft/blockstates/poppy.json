@@ -1,7 +1,7 @@
 {
 	"variants": {
 		"": [
-			{ "model": "block/poppy_0" },
+			{ "model": "block/poppy" },
 			{ "model": "block/poppy_1" },
 			{ "model": "block/poppy_2" },
 			{ "model": "block/poppy_3" }

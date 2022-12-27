@@ -4,8 +4,8 @@
 		"particle": "block/dirt_2",
 		"bottom": "block/dirt_2",
 		"top": "block/grass_block_top_8",
-		"side": "block/grass_block_side_0",
-		"overlay": "block/grass_block_side_overlay_0"
+		"side": "block/grass_block_side",
+		"overlay": "block/grass_block_side_overlay"
 	},
 	"elements": [
 		{

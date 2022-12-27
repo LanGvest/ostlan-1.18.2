@@ -1,7 +1,7 @@
 {
 	"variants": {
 		"": [
-			{ "model": "minecraft:block/sugar_cane_0", "weight": 60 },
+			{ "model": "minecraft:block/sugar_cane", "weight": 60 },
 			{ "model": "minecraft:block/sugar_cane_1", "weight": 20 },
 			{ "model": "minecraft:block/sugar_cane_2", "weight": 20 }
 		]
