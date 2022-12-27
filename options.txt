@@ -152,9 +152,10 @@ key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.g
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
+key_Options Gui:key.keyboard.i
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
-key_Options Gui:key.keyboard.i
+key_key.configured.open_mod_list:key.keyboard.unknown
 soundCategory_master:0.60513246
 soundCategory_music:0.0
 soundCategory_record:1.0
