@@ -1,6 +1,6 @@
 #The voice chat volume
 #Range: 0.0 ~ 2.0
-voice_chat_volume = 1
+voice_chat_volume = 2.0
 #The threshold for voice activation in dB
 #Range: -127.0 ~ 0.0
 voice_activation_threshold = -60
