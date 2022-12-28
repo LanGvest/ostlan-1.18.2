@@ -1,11 +1,160 @@
 {
   "id": "OstLan 1.18.2",
-  "time": "2022-09-10T03:19:56+03:00",
+  "time": "2022-12-20T14:27:20+03:00",
   "releaseTime": "2022-02-28T13:42:45+03:00",
   "type": "release",
   "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
   "minimumLauncherVersion": 21,
   "arguments": {
+    "jvm": [
+      {
+        "values": [
+          "-XstartOnFirstThread"
+        ],
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "osx"
+            }
+          }
+        ]
+      },
+      {
+        "values": [
+          "-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump"
+        ],
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "windows"
+            }
+          }
+        ]
+      },
+      {
+        "values": [
+          "-Dos.name=Windows 10",
+          "-Dos.version=10.0"
+        ],
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "windows",
+              "version": "^10\\."
+            }
+          }
+        ]
+      },
+      {
+        "values": [
+          "-Xss1M"
+        ],
+        "rules": [
+          {
+            "action": "allow",
+            "os": {}
+          }
+        ]
+      },
+      {
+        "values": [
+          "-Djava.library.path=${natives_directory}"
+        ]
+      },
+      {
+        "values": [
+          "-Dminecraft.launcher.brand=${launcher_name}"
+        ]
+      },
+      {
+        "values": [
+          "-Dminecraft.launcher.version=${launcher_version}"
+        ]
+      },
+      {
+        "values": [
+          "-cp"
+        ]
+      },
+      {
+        "values": [
+          "${classpath}"
+        ]
+      },
+      {
+        "values": [
+          "-Djava.net.preferIPv6Addresses=system"
+        ]
+      },
+      {
+        "values": [
+          "-DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,client-extra,fmlcore,javafmllanguage,lowcodelanguage,mclanguage,forge-,${version_name}.jar"
+        ]
+      },
+      {
+        "values": [
+          "-DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar,java-objc-bridge-1.0.0.jar"
+        ]
+      },
+      {
+        "values": [
+          "-DlibraryDirectory=${library_directory}"
+        ]
+      },
+      {
+        "values": [
+          "-p"
+        ]
+      },
+      {
+        "values": [
+          "${library_directory}/cpw/mods/bootstraplauncher/1.0.0/bootstraplauncher-1.0.0.jar${classpath_separator}${library_directory}/cpw/mods/securejarhandler/1.0.3/securejarhandler-1.0.3.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-util/9.2/asm-util-9.2.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar${classpath_separator}${library_directory}/org/ow2/asm/asm/9.2/asm-9.2.jar"
+        ]
+      },
+      {
+        "values": [
+          "--add-modules"
+        ]
+      },
+      {
+        "values": [
+          "ALL-MODULE-PATH"
+        ]
+      },
+      {
+        "values": [
+          "--add-opens"
+        ]
+      },
+      {
+        "values": [
+          "java.base/java.util.jar=cpw.mods.securejarhandler"
+        ]
+      },
+      {
+        "values": [
+          "--add-exports"
+        ]
+      },
+      {
+        "values": [
+          "java.base/sun.security.util=cpw.mods.securejarhandler"
+        ]
+      },
+      {
+        "values": [
+          "--add-exports"
+        ]
+      },
+      {
+        "values": [
+          "jdk.naming.dns/com.sun.jndi.dns=java.naming"
+        ]
+      }
+    ],
     "game": [
       {
         "values": [
@@ -163,7 +312,7 @@
       },
       {
         "values": [
-          "40.1.80"
+          "40.1.92"
         ]
       },
       {
@@ -194,155 +343,6 @@
       {
         "values": [
           "20220404.173914"
-        ]
-      }
-    ],
-    "jvm": [
-      {
-        "values": [
-          "-XstartOnFirstThread"
-        ],
-        "rules": [
-          {
-            "action": "allow",
-            "os": {
-              "name": "osx"
-            }
-          }
-        ]
-      },
-      {
-        "values": [
-          "-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump"
-        ],
-        "rules": [
-          {
-            "action": "allow",
-            "os": {
-              "name": "windows"
-            }
-          }
-        ]
-      },
-      {
-        "values": [
-          "-Dos.name=Windows 10",
-          "-Dos.version=10.0"
-        ],
-        "rules": [
-          {
-            "action": "allow",
-            "os": {
-              "name": "windows",
-              "version": "^10\\."
-            }
-          }
-        ]
-      },
-      {
-        "values": [
-          "-Xss1M"
-        ],
-        "rules": [
-          {
-            "action": "allow",
-            "os": {}
-          }
-        ]
-      },
-      {
-        "values": [
-          "-Djava.library.path=${natives_directory}"
-        ]
-      },
-      {
-        "values": [
-          "-Dminecraft.launcher.brand=${launcher_name}"
-        ]
-      },
-      {
-        "values": [
-          "-Dminecraft.launcher.version=${launcher_version}"
-        ]
-      },
-      {
-        "values": [
-          "-cp"
-        ]
-      },
-      {
-        "values": [
-          "${classpath}"
-        ]
-      },
-      {
-        "values": [
-          "-Djava.net.preferIPv6Addresses=system"
-        ]
-      },
-      {
-        "values": [
-          "-DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,client-extra,fmlcore,javafmllanguage,lowcodelanguage,mclanguage,forge-,${version_name}.jar"
-        ]
-      },
-      {
-        "values": [
-          "-DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar,java-objc-bridge-1.0.0.jar"
-        ]
-      },
-      {
-        "values": [
-          "-DlibraryDirectory=${library_directory}"
-        ]
-      },
-      {
-        "values": [
-          "-p"
-        ]
-      },
-      {
-        "values": [
-          "${library_directory}/cpw/mods/bootstraplauncher/1.0.0/bootstraplauncher-1.0.0.jar${classpath_separator}${library_directory}/cpw/mods/securejarhandler/1.0.3/securejarhandler-1.0.3.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-util/9.2/asm-util-9.2.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar${classpath_separator}${library_directory}/org/ow2/asm/asm/9.2/asm-9.2.jar"
-        ]
-      },
-      {
-        "values": [
-          "--add-modules"
-        ]
-      },
-      {
-        "values": [
-          "ALL-MODULE-PATH"
-        ]
-      },
-      {
-        "values": [
-          "--add-opens"
-        ]
-      },
-      {
-        "values": [
-          "java.base/java.util.jar=cpw.mods.securejarhandler"
-        ]
-      },
-      {
-        "values": [
-          "--add-exports"
-        ]
-      },
-      {
-        "values": [
-          "java.base/sun.security.util=cpw.mods.securejarhandler"
-        ]
-      },
-      {
-        "values": [
-          "--add-exports"
-        ]
-      },
-      {
-        "values": [
-          "jdk.naming.dns/com.sun.jndi.dns=java.naming"
         ]
       }
     ]
@@ -566,12 +566,12 @@
       }
     },
     {
-      "name": "net.minecraftforge:fmlloader:1.18.2-40.1.80",
+      "name": "net.minecraftforge:fmlloader:1.18.2-40.1.92",
       "artifact": {
-        "sha1": "73a717c26025a3fa1f37cbe925840fa187c28dc1",
-        "size": 256224,
-        "path": "net/minecraftforge/fmlloader/1.18.2-40.1.80/fmlloader-1.18.2-40.1.80.jar",
-        "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.18.2-40.1.80/fmlloader-1.18.2-40.1.80.jar"
+        "sha1": "e50737e8e957aca3a5b0dfa3dc147e9d47c7816d",
+        "size": 256615,
+        "path": "net/minecraftforge/fmlloader/1.18.2-40.1.92/fmlloader-1.18.2-40.1.92.jar",
+        "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.18.2-40.1.92/fmlloader-1.18.2-40.1.92.jar"
       }
     },
     {
@@ -1641,9 +1641,9 @@
   ],
   "assetIndex": {
     "id": "1.18",
-    "totalSize": 467473537,
-    "size": 348532,
-    "url": "https://launchermeta.mojang.com/v1/packages/de57d9f6d65a980f86df431603287248d4f148b5/1.18.json"
+    "totalSize": 468385313,
+    "size": 348726,
+    "url": "https://piston-meta.mojang.com/v1/packages/92aa15a18127b6f9e3f0e5a7d018be7ebb389703/1.18.json"
   },
   "downloads": {
     "client": {
