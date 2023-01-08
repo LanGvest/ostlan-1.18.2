@@ -34,6 +34,9 @@
 		umbran = true
 		hellbark = true
 
+	[wood_type.wildbackport]
+		mangrove = true
+
 [leaves_type]
 
 	[leaves_type.minecraft]
@@ -65,4 +68,7 @@
 		maple = true
 		white_cherry = true
 		pink_cherry = true
+
+	[leaves_type.wildbackport]
+		mangrove = true
 
