@@ -1,0 +1,106 @@
+{
+  "enabled": true,
+  "interval": 20,
+  "entries": [
+    {
+      "block": [
+        "minecraft:gold_block",
+        "minecraft:raw_gold_block",
+        "minecraft:gold_ore",
+        "minecraft:deepslate_gold_ore",
+        "minecraft:nether_gold_ore"
+      ],
+      "particle": {
+        "type": "visuality:sparkle",
+        "value": [
+          0.996078,
+          1.0,
+          0.741176
+        ]
+      }
+    },
+    {
+      "block": [
+        "minecraft:diamond_block",
+        "minecraft:diamond_ore",
+        "minecraft:deepslate_diamond_ore"
+      ],
+      "particle": {
+        "type": "visuality:sparkle",
+        "value": [
+          0.705882,
+          0.992156,
+          0.933333
+        ]
+      }
+    },
+    {
+      "block": [
+        "minecraft:emerald_block",
+        "minecraft:emerald_ore",
+        "minecraft:deepslate_emerald_ore"
+      ],
+      "particle": {
+        "type": "visuality:sparkle",
+        "value": [
+          0.85098,
+          1.0,
+          0.921568
+        ]
+      }
+    },
+    {
+      "block": [
+        "biomesoplenty:glowshroom_block",
+        "biomesoplenty:glowshroom",
+        "biomesoplenty:glowworm_silk_strand",
+        "biomesoplenty:glowworm_silk"
+      ],
+      "particle": {
+        "type": "visuality:sparkle",
+        "value": [
+          0.549019,
+          0.823529,
+          1.0
+        ]
+      }
+    },
+    {
+      "block": [
+        "biomesoplenty:rose_quartz_block",
+        "biomesoplenty:rose_quartz_cluster"
+      ],
+      "particle": {
+        "type": "visuality:sparkle",
+        "value": [
+          1.0,
+          0.470588,
+          0.62745
+        ]
+      }
+    },
+    {
+      "block": [
+        "minecraft:amethyst_cluster",
+        "minecraft:amethyst_block",
+        "minecraft:budding_amethyst"
+      ],
+      "particle": {
+        "type": "visuality:sparkle",
+        "value": [
+          0.996078,
+          0.796078,
+          0.90196
+        ]
+      }
+    },
+    {
+      "block": [
+        "minecraft:soul_sand",
+        "minecraft:soul_soil"
+      ],
+      "direction": "up",
+      "particle": "visuality:soul"
+    }
+  ]
+}
