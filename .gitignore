@@ -2,6 +2,7 @@
 /crash-reports
 /config-*
 /logs
+/refs
 /defaultconfigs
 /natives
 /saves
